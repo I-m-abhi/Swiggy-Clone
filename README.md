@@ -1,6 +1,11 @@
-# React Notes
+# Important
 
-## Parcel
+* Setup Parcel on Your Project
+* Run Project :- npx parcel index.html
+* Note :- I am using Live Swiggy API it could be change any time and can get error
+* In Case of Error :- Get current API of Swiggy and replace it and also check the structure of API's Data.
+
+# Parcel / Parcel Pros 
 
 * Dev Build
 * Local Server
@@ -20,31 +25,11 @@
 * Tree Shaking - remove unused code
 * Different dev and prod bundles
 
+# Features
 
-## Two types of Export/Import
-
-### Default Export/Import
-* export default Component; import Component from "path";
-
-### Named Export/Import
-* export const Component; import {Component} from "path";
-
-## React Hooks
-### (Normal JS utility functions)
-
-* useState() - Superpowerful State Variables in react
-* useEffect()
-
-## 2 types Routing in web apps
-
-* Client Side Routing
-* Server Side Routing
-
-## Redux Toolkit
-
-* Install @reduxjs/toolkit and react-redux
-* Build our store
-* Connect our store to our app
-* Slice (cartSlice)
-* dispatch(action)
-* Selector
+* Using Live API of Swiggy App to display Restaurant List on Home Page
+* Search Restaurant
+* Filter on topRatedRestaurant
+* onClick on ResCard to get Menu of Restaurant
+* Cart Page
+* Get Online Status
